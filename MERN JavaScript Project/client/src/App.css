@@ -1,0 +1,163 @@
+*{
+  font-family: sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  background-color: #009879;
+  width: 100%;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+.container{
+  background-color: gainsboro;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.welcome{
+  width: 70%;
+  line-height: 2;
+  background: #009879;
+  border: 1px solid black;
+  margin: 5px;
+}
+.welcome h3{
+  border-bottom: 2px solid black;
+}
+
+.styled-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.styled-table  thead tr{
+  background-color: #009879;
+  color:#ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td{
+  padding: 12px 15px;
+  text-align: center;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.styled-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+.styled-table tbody tr:last-of-type{
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row{
+  font-weight: bold;
+  color: #009879;
+}
+.journal-page{
+  background-color: aliceblue;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.form-page{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 50%;
+  background-color: #009879;
+  padding: 10px;
+}
+.form-group{
+display: flex;
+gap: 15px;
+margin: 15px;
+}
+.form-group label{
+  text-shadow: 1px black;
+}
+.text-box{
+  width: 150%;
+  height: 170px;
+}
+
+.detail-page{
+  width: 60%;
+  background-color: #009879;
+  margin: 10px;
+  padding: 10px;
+}
+.detail-block{
+  background-color: #dddddd;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+
+.button-68 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-68:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-68:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+
